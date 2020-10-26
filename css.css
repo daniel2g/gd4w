@@ -80,8 +80,8 @@ a{
 }
 
 .main{
-    margin-top: 20vh;
-    margin-left: 0.5vw;
+    margin-top: 8vh;
+    margin-left: 4vw;
     position: fixed;
     text-align: center;
    
@@ -90,8 +90,8 @@ a{
 .subhead{
     position: fixed;
 
-    margin-top:40vh;
-    margin-left: 60vw;
+    margin-top:42vh;
+    margin-left: 56vw;
 
     width: 16em;
     text-align: center;
@@ -104,35 +104,35 @@ a{
 
 .img1{
     position: fixed;
-    margin-top:60vh;
+    margin-top:65vh;
     margin-left: 2vw;
 }
 
 .img2{
     position: fixed;
-    margin-top:40vh;
+    margin-top:35vh;
     margin-left: 20vw;
 }
 .img3{
     position: fixed;
-    margin-top:20vh;
-    margin-left: 40vw;
+    margin-top:5vh;
+    margin-left: 38vw;
 }
 .img4{
     position: fixed;
-    margin-top:60vh;
-    margin-left: 40vw;
+    margin-top:65vh;
+    margin-left: 38vw;
 }
 .img5{
     position: fixed;
-    margin-top:20vh;
-    margin-left: 80vw;
+    margin-top:5vh;
+    margin-left: 75vw;
     
 }
 .img6{
     position: fixed;
-    margin-top:60vh;
-    margin-left: 80vw;
+    margin-top:65vh;
+    margin-left: 75vw;
 }
 
 img{
@@ -183,28 +183,30 @@ img{
 }
 
 .reading{
-    width: 18em;
+    width: 22em;
    margin: auto;
-    margin-top: 15%;
+    margin-top: 20%;
 
    font-family: interstate, sans-serif;
    font-style: italic;
     font-weight: 400;
     font-size: 1em;
+    line-height: 1.33em;
     text-align: center;
-    
+    color: #fdaeff;
     
    
 }
 .readingdiv{
     visibility: hidden;
-    border-width: 1px;
-    border-style: solid;
+    /* border-width: 1px;
+    border-style: solid; */
     height: calc(95vh - 8em);
     width: calc((95vh - 8em)*1.5);
     /* display: none; */
     margin-top: 2em;
     margin-left: 6em;
+    background-color: black;
     
     
 }
