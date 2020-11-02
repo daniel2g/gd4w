@@ -80,8 +80,8 @@ a{
 }
 
 .main{
-    margin-top: 8vh;
-    margin-left: 4vw;
+    margin-top: 40vh;
+    margin-left: 17vw;
     position: fixed;
     text-align: center;
    
@@ -110,8 +110,8 @@ a{
 
 .img2{
     position: fixed;
-    margin-top:35vh;
-    margin-left: 20vw;
+    margin-top:5vh;
+    margin-left: 2vw;
 }
 .img3{
     position: fixed;
@@ -141,6 +141,10 @@ img{
     margin-bottom: 0px;
     mix-blend-mode: multiply;
 }
+
+/* a img:hover{
+    transform: rotateY(10deg) rotateX(10deg);
+} */
 
 .bigpic:hover{
     
