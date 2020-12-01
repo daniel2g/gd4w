@@ -3,19 +3,19 @@ body{
 }
 #staticcontainer{
     position: fixed;
-    margin-top: 6vh;
+    margin-top: 5.6vh;
     margin-left: 6vh;
     z-index: -200;
 }
 
 .h{
     display: inline;
-    font-family: monotalic-wide, sans-serif;
-    font-weight: 700;
+    font-family: 'Rubik Mono One', sans-serif;
+    /* font-weight: 700; */
     font-style: normal;
     text-transform: uppercase;
-    font-size: 15vh;
-    line-height: 140%;
+    font-size: 14.3vh;
+    line-height: 1.405;
     color:#C62D18;
 }
 
@@ -36,8 +36,152 @@ body{
 .bottom{
     position: fixed;
     z-index: 0;
-    height: 100vh;
+    height: 10vh;
     width: 100%;
     margin-top: 90vh;
     background-color: #C62D18;
 }
+
+.overlay{
+    position: fixed;
+    z-index: 0;
+    height: 10vh;
+    width: 100%;
+
+
+}
+
+.pub{
+
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    width: 100%;
+    margin-top: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    /* animation-name: fadein;
+    animation-duration: 1s; */
+}
+
+.hidepub{
+    opacity: 0;
+
+    /* animation-name: fadein;
+    animation-duration: 1s;
+    animation-direction: reverse; */
+}
+
+/* @keyframes fadein{
+    from{opacity:1}
+    to{opacity:0}
+} */
+
+
+.button{
+    width: auto;
+    margin-left: auto;
+    margin-right: 6vh;
+    
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+  background: #C62D18;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 3em;
+ padding-left: 0.2em;
+ padding-right: 0.2em;
+line-height: 1;
+}
+
+.button:hover{
+    cursor:pointer;
+    background:white ;
+    color:  #C62D18;;
+}
+
+
+.directions{
+    width:33em;
+    font-size: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 6vh;
+    line-height: 1.5;
+}
+
+
+.intro{
+    margin-left: 100%;
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.67,0,1,.33);
+
+}
+
+@keyframes animate{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    100%{margin-left: 100%;}
+}
+
+
+.entries{
+
+    /* display: none; */
+    position: static;
+    padding-bottom: 19vh;
+   font-family: 'Rubik', sans-serif;
+   font-weight: 600;
+   text-transform: uppercase;
+   width:28em;
+   line-height: 1.5em;
+   letter-spacing: 0.5px;
+
+   
+}
+mark::before{
+    content: ". . .";
+
+}
+mark{
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, transparent 0.14em, #fff 0.14em, #fff 1.04em, transparent 1.04em);
+
+    color: #004280;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    opacity: 0;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      border-style: solid;
+      border-color: #C62D18;
+      border-width: 2px;
+    background: #fff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: #C62D18;
+    /* border-style: solid;
+    border-color: #C62D18;
+    border-width: 3px;
+  background: #fff; */
+  }
